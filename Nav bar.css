@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #000;
+    background-image: url("https://images.unsplash.com/photo-1552845108-5f775a2ccb9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    
+}
+a:hover{
+    color :orange;
+    
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navbar.logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color:white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+    
+.action_btn{
+    background-color:black;
+     color:white;
+     width: 104px;
+     height: 30px;
+     background: #a84909;
+     border-radius: 40px;
+     font-weight: bold;
+     cursor: pointer;
+     font-size:80%;
+   padding: 0.5rem 1rem;
+  text-align: center;
+  transition:width 5s;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px;
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color:whitesmoke;
+    border-radius: 0 5px 5px 0; 
+     margin-top: 98px;
+  }
+  
+  #mySidenav a:hover {
+    left:0;
+  }
+  
+  #hero {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #about {
+    top: 80px;
+    background-color:#a84909; 
+  }
+  
+  #services {
+    top: 140px;
+    background-color: #f44336; 
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 
+  }
+  
